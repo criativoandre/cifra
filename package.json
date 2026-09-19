@@ -1,0 +1,11 @@
+{
+  "name": "cifra-app",
+  "private": true,
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "dev:musico": "npm run dev -w apps/musico",
+    "dev:admin": "npm run dev -w apps/admin",
+    "build:musico": "npm run build -w apps/musico",
+    "build:admin": "npm run build -w apps/admin"
+  }
+}
